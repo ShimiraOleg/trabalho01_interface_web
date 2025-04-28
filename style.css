@@ -1,3 +1,7 @@
+html{
+    font-size: 62.5%;
+}
+
 body{
     background-color: #FFF7F3;
     margin: 0 auto;
@@ -12,17 +16,16 @@ body{
     gap: 32px;
     align-items: start;
     margin: auto;
-    width: 1280px;
 }
 
 .main-title{
     flex: 100%;
-    font-size: 40px;
+    font-size: 4em;
     margin: 0;
+    padding: 0;
 }
 
 .menu{
-    width: 800px;
     display: flex;
     row-gap: 32px;
     column-gap: 14px;
@@ -42,8 +45,9 @@ body{
 }
 
 .menu-dessert__img img{
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    height: auto; 
+    aspect-ratio: 1 / 1; 
     border-radius: 8px;
 }
 
@@ -60,13 +64,18 @@ body{
     right: 0;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 92px;
+    bottom: 22%;
     width: 60%;
 }
 
 .menu-dessert__action img{
     width: 20px;
     height: 20px;
+}
+
+.menu-dessert__action p{
+    font-size: 1.2em;
+    font-weight: 600;
 }
 
 .menu-dessert__content{
@@ -76,16 +85,22 @@ body{
 }
 
 .menu-dessert__category{
+    font-size: 1em;
+    font-weight: bold;
     color: #8A7E7A;
     margin: 0;
 }
 
 .menu-dessert__name{
+    font-size: 1.6em;
+    font-weight: bold;
     color: #260F08;
     margin: 0;
 }
 
 .menu-dessert__price{
+    font-size: 1.6em;
+    font-weight: bold;
     color: #C73B0F;
     margin: 0;
 }
@@ -93,15 +108,16 @@ body{
 .cart{
     background-color: #ffff;
     border-radius: 12px;
-    width: 400px;
     display: flex;
     flex-direction: column;
     padding: 24px;
     gap: 24px;
     flex-shrink: 0;
+    min-width: 30%;
 }
 
 .cart-item__title{
+    font-size: 3em;
     color: #B2370D;
     margin: 0px;
 }
@@ -121,6 +137,8 @@ body{
 }
 
 .cart-item__description{
+    font-size: 1.6em;
+    font-weight: bold;
     color: #8A7E7A;
     text-align: center;
     margin: 0px;
