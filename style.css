@@ -37,7 +37,6 @@ body{
     flex: calc(33.333% - 1.4em);
     flex-direction: column;
     gap: 3.8em;
-    position: relative;
 }
 
 .menu-dessert__img{
@@ -60,12 +59,11 @@ body{
     border-radius: 99.9em;
     gap: .8em;
     height: 4.35vh;
-    position: absolute;
-    right: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 22%;
     width: 60%;
+    position: absolute;
+    left: 50%;
+    bottom: -5%;
+    transform: translateX(-50%);
 }
 
 .menu-dessert__action img{
