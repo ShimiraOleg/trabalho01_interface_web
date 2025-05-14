@@ -5,7 +5,7 @@ html{
 body{
     background-color: #FFF7F3;
     margin: 0 auto;
-    padding: 75px 0px;
+    padding: 7.5em 0;
     width: 90%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -13,7 +13,7 @@ body{
 .container{
     display: flex;
     justify-content: space-between;
-    gap: 32px;
+    gap: 3.2em;
     align-items: start;
     margin: auto;
 }
@@ -27,16 +27,16 @@ body{
 
 .menu{
     display: flex;
-    row-gap: 32px;
-    column-gap: 14px;
+    row-gap: 3.2em;
+    column-gap: 1.4em;
     flex-wrap: wrap;
 }
 
 .menu-dessert{
     display: flex;
-    flex: calc(33.333% - 14px);
+    flex: calc(33.333% - 1.4em);
     flex-direction: column;
-    gap: 38px;
+    gap: 3.8em;
     position: relative;
 }
 
@@ -48,7 +48,7 @@ body{
     width: 100%;
     height: auto; 
     aspect-ratio: 1 / 1; 
-    border-radius: 8px;
+    border-radius: .8em;
 }
 
 .menu-dessert__action{
@@ -57,9 +57,9 @@ body{
     justify-content: center;
     background-color: #ffff;
     border: 1px solid #8A7E7A;
-    border-radius: 999px;
-    gap: 8px;
-    height: 44px;
+    border-radius: 99.9em;
+    gap: .8em;
+    height: 4.35vh;
     position: absolute;
     right: 0;
     left: 50%;
@@ -69,8 +69,8 @@ body{
 }
 
 .menu-dessert__action img{
-    width: 20px;
-    height: 20px;
+    width: 1.04vw;
+    height: 1.99vh;
 }
 
 .menu-dessert__action p{
@@ -81,11 +81,11 @@ body{
 .menu-dessert__content{
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: .4em;
 }
 
 .menu-dessert__category{
-    font-size: 1em;
+    font-size: 1.4em;
     font-weight: bold;
     color: #8A7E7A;
     margin: 0;
@@ -107,11 +107,11 @@ body{
 
 .cart{
     background-color: #ffff;
-    border-radius: 12px;
+    border-radius: 1.2em;
     display: flex;
     flex-direction: column;
-    padding: 24px;
-    gap: 24px;
+    padding: 2.4em;
+    gap: 2.4em;
     flex-shrink: 0;
     min-width: 30%;
 }
@@ -119,7 +119,7 @@ body{
 .cart-item__title{
     font-size: 3em;
     color: #B2370D;
-    margin: 0px;
+    margin: 0;
 }
 
 .cart-item__img{
@@ -127,13 +127,13 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    gap: 16px;
-    margin: 16px 0px;
+    gap: 1.6em;
+    margin: 1.6em 0;
 }
 
 .cart-item__img img{
-    width: 150px;
-    height: 150px;
+    width: 7.81vw;
+    height: 14.85vh;
 }
 
 .cart-item__description{
@@ -141,5 +141,5 @@ body{
     font-weight: bold;
     color: #8A7E7A;
     text-align: center;
-    margin: 0px;
+    margin: 0;
 }
