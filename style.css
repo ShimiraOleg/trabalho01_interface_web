@@ -58,11 +58,11 @@ body{
     border: 1px solid #8A7E7A;
     border-radius: 99.9em;
     gap: .8em;
-    height: 4.35vh;
+    height: 32px;
     width: 60%;
     position: absolute;
     left: 50%;
-    bottom: -5%;
+    bottom: -4%;
     transform: translateX(-50%);
 }
 
@@ -71,10 +71,12 @@ body{
     height: 1.99vh;
 }
 
-.menu-dessert__action p{
-    font-size: 1.2em;
-    font-weight: 600;
+.menu-dessert__purchase{
+    font-size: 100%;
+    font-weight: 500;
+    white-space: nowrap;
 }
+
 
 .menu-dessert__content{
     display: flex;
